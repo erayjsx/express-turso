@@ -20,7 +20,7 @@ const port = 3000;
 
 app.use(express.json());
 app.use(helmet());
-app.use(validateApiKey);
+//app.use(validateApiKey);
 
 app.get("/", (req, res) => {
   res.send("Turso ve Express API'sine Hoşgeldiniz!");
